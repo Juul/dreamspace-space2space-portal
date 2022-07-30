@@ -49,7 +49,7 @@ const App = () => {
         <>
             <JitsiMeeting
                 domain="meet.waag.org"
-                roomName="turtlesturtlesturtles"
+                roomName="dreamspace"
                 onApiReady={externalApi => handleApiReady(externalApi, apiRef)}
                 getIFrameRef={handleJitsiIFrameRef}
             />
